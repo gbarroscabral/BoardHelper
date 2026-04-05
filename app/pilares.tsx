@@ -13,7 +13,7 @@ export default function PilaresCartasScreen() {
 
   const resetRodada = () => {
     setVazasGanhas(0);
-    // Mantemos os pontos e recursos para a próxima das 6 rodadas
+    
   };
 
   return (
@@ -50,7 +50,7 @@ export default function PilaresCartasScreen() {
 
       <Text style={styles.sectionTitle}>Seu Estoque de Materiais</Text>
 
-      {/* Grid de Recursos */}
+      {/* Recursos */}
       <View style={styles.resourceGrid}>
         <ResourceItem nome="🪵 Madei." cor="#8b4513" val={madeira} set={setMadeira} />
         <ResourceItem nome="🪨 Pedra" cor="#7f8c8d" val={pedra} set={setPedra} />
@@ -65,7 +65,7 @@ export default function PilaresCartasScreen() {
   );
 }
 
-// Componente Interno para os Itens de Recurso
+
 const ResourceItem = ({ nome, cor, val, set }: any) => (
   <View style={[styles.resItem, { borderColor: cor }]}>
     <Text style={styles.resName}>{nome}</Text>
