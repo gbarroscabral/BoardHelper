@@ -10,7 +10,6 @@ export default function RootLayout() {
   <Stack.Screen name="index" options={{ headerShown: false }} /> 
   <Stack.Screen name="bang" options={{ title: 'BANG! SETUP' }} />
   <Stack.Screen name="coup" options={{ title: 'COUP - MOEDAS' }} />
-  {/* VERIFIQUE SE ESTA LINHA ABAIXO EXISTE */}
   <Stack.Screen name="dungeon" options={{ title: 'DUNGEON & DRINKS' }} />
 </Stack>
   );
