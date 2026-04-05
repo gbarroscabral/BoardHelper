@@ -14,7 +14,7 @@ export default function BangScreen() {
   const [personagem, setPersonagem] = useState<Personagem | null>(null);
   const [revelado, setRevelado] = useState<boolean>(false);
 
-  // Lista completa baseada no manual [cite: 113-165]
+  
 const listaPersonagens: Personagem[] = [
   { nome: "BART CASSIDY", hp: 8, habilidade: "Pode pegar uma flecha em vez de perder 1 HP (exceto Indígenas/Dinamite)." }, 
   { nome: "BLACK JACK", hp: 8, habilidade: "Pode rerrolar a Dinamite (se não tiver tirado 3 ou mais)." },
@@ -43,7 +43,7 @@ const listaPersonagens: Personagem[] = [
   };
 
   const prepararNovoJogo = () => {
-    // Embaralha as identidades 
+
     let novoDeck = [...configPapeis[numJogadores]];
     novoDeck = novoDeck.sort(() => Math.random() - 0.5);
     
@@ -61,7 +61,7 @@ const listaPersonagens: Personagem[] = [
     }
 
     const novoDeck = [...deckAtual];
-    const papelSorteado = novoDeck.pop()!; // Remove a última carta do deck
+    const papelSorteado = novoDeck.pop()!; 
     const pSorteado = listaPersonagens[Math.floor(Math.random() * listaPersonagens.length)];
     
     setDeckAtual(novoDeck);
