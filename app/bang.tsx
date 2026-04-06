@@ -105,10 +105,10 @@ const listaPersonagens: Personagem[] = [
       ❤️ Vida: {papel.includes("XERIFE") ? personagem.hp + 2 : personagem.hp} Balas
     </Text>
     
-    {/* Habilidade do Personagem [cite: 30] */}
+  
     <Text style={styles.habilidadeText}>{personagem.habilidade}</Text>
 
-    {/* Novo Bloco de Objetivo [cite: 15, 16, 17, 18] */}
+   
     <View style={styles.goalBox}>
       <Text style={styles.goalTitle}>🎯 SEU OBJETIVO:</Text>
       <Text style={styles.goalText}>
