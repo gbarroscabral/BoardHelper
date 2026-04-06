@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
     paddingTop: 10,
     borderTopWidth: 1,
-    borderTopColor: '#4d3b2e', // Uma linha sutil para separar
+    borderTopColor: '#4d3b2e',
     width: '100%',
   },
   goalTitle: {
