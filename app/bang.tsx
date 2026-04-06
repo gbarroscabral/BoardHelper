@@ -35,11 +35,11 @@ const listaPersonagens: Personagem[] = [
 ];
 
   const configPapeis: Record<number, string[]> = {
-    4: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI"], // 
-    5: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE"], // [cite: 22]
+    4: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI"], 
+    5: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE"], 
     6: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE"],
-    7: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE", "⭐ ASSISTENTE"], // [cite: 23]
-    8: ["🤠 XERIFE", "🕶️ RENEGADO", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE", "⭐ ASSISTENTE"], // [cite: 24]
+    7: ["🤠 XERIFE", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE", "⭐ ASSISTENTE"], 
+    8: ["🤠 XERIFE", "🕶️ RENEGADO", "🕶️ RENEGADO", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "🧨 FORA-DA-LEI", "⭐ ASSISTENTE", "⭐ ASSISTENTE"], 
   };
 
   const prepararNovoJogo = () => {
