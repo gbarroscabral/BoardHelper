@@ -49,7 +49,7 @@ export default function GameHub() {
 
       {/* CARD OS PILARES DA TERRA */}
       <TouchableOpacity 
-  style={[styles.gameCard, { backgroundColor: '#795548' }]} // Tom marrom/terroso
+  style={[styles.gameCard, { backgroundColor: '#795548' }]} 
   onPress={() => router.push('/pilares')}
 >
   <FontAwesome name="fort-awesome" size={40} color="#fff" />
